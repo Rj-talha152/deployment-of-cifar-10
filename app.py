@@ -1,11 +1,11 @@
 # import the Package
 import os
+import cv2
 import numpy as np 
 from PIL import Image , ImageOps
 import streamlit as st
-import tensorflow as tf
 from tensorflow.keras.models import load_model
-
+import tensorflow as tf
 
 class_name = ["airplane", "automobile" , "bird" , "cat" , "deer" , "dog" , "frog" , "horse" , "ship" , "truck"]
 
